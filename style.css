@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    background-color: green;
+}
+
+.header {
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+#text{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+.Cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.cardStyle{
+    background-color: white;
+    width: 8em;
+    height: 10em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.7em 0.7em 1em black;
+    border-radius: 7px;
+
+}
+
+.suit-top{
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    margin: 5% 0 0 7%;
+    
+    
+}
+
+.number{
+   font-size: 70px;
+   text-align: center;
+   font-family: 'Cinzel Decorative', cursive;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   height: 60%;
+   width: 100%;
+   margin: -5% 0 0 2%;
+   
+   
+}
+
+.suit-bottom{
+    transform: rotate(180deg);
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    margin: -3% 0 0 -7%;
+    
+}
+
+.iteration_num_container{
+    display: flex;
+    align-items: center;
+}
+
+.card_container-sort-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.iteracion{
+    font-size: 85px;
+}
+
+.redsuits{
+    color: red;
+}
+.blacksuits{
+    color: black;
+}
